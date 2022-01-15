@@ -1,3 +1,6 @@
+:root{
+    --style-link-none: none;
+}
 
 #header-nav img {
     width: 80px;
@@ -12,13 +15,44 @@
     object-fit: cover;
     filter: grayscale(70%);
 }
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay a{
+    text-decoration: var(--style-link-none);
+}
+
+#carousel .overlay .container, 
+#carousel .overlay .container .row{
+    height: 100%;
+}
+
+.btn-success{
+     background-color:  #97c93e ;
+     color: black;
+     font-weight: 500;
+}
+
 #footer{
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
 
 #footer .row a{
     color: white;
-    text-decoration: none;
+    text-decoration: var(--style-link-none);
 }
 
 
