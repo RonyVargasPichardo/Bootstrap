@@ -46,6 +46,16 @@
      font-weight: 500;
 }
 
+#place-time{
+    color: white;
+}
+
+#place-time img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
 #footer{
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
