@@ -40,10 +40,11 @@
     height: 100%;
 }
 
-.btn-success{
+.btn-platzi{
      background-color:  #97c93e ;
-     color: black;
+     color: white;
      font-weight: 500;
+     border: none;
 }
 
 #place-time{
